@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
-const companyName:string = 'DevsMonkeys';
-const companyUrl:string = 'https://devsmonkeys.com';
+const companyName:string = "Lead'In";
+const companyUrl:string = 'https://www.lead-in.fr/en/';
 const universityName:string = 'PJATK';
 const universityUrl:string = 'http://www.pja.edu.pl/en/';
 const universityYears:string = '2018-2022';
@@ -12,7 +12,7 @@ const currentEmail:string = 'svbackend22@gmail.com';
 const currentResumeUrl:string = 'https://docs.google.com/document/d/1JnTviLtkWa5Xh-viTocx2DBGnP4Nk31IUkh5z9Yi4GM/edit?usp=sharing';
 const currentLinkedinUrl:string = 'https://www.linkedin.com/in/svbackend/';
 const currentGithubUrl:string = 'https://github.com/svbackend';
-const lookingForJob:boolean = true;
+const lookingForJob:boolean = false;
 
 class App extends Component {
   render() {
