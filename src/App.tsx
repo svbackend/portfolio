@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 const companyName:string = "Lead'In";
-const companyUrl:string = 'https://www.lead-in.fr/en/';
+const companyUrl:string = 'https://www.lead-in.fr';
 const universityName:string = 'PJATK';
 const universityUrl:string = 'http://www.pja.edu.pl/en/';
 const universityYears:string = '2018-2022';
