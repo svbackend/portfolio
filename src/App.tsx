@@ -12,7 +12,7 @@ const currentEmail:string = 'svbackend22@gmail.com';
 const currentResumeUrl:string = 'https://docs.google.com/document/d/1JnTviLtkWa5Xh-viTocx2DBGnP4Nk31IUkh5z9Yi4GM/edit?usp=sharing';
 const currentLinkedinUrl:string = 'https://www.linkedin.com/in/svbackend/';
 const currentGithubUrl:string = 'https://github.com/svbackend';
-const lookingForJob:boolean = false;
+const lookingForJob:boolean = true;
 
 class App extends Component {
   render() {
@@ -31,7 +31,11 @@ class App extends Component {
         </p>
         <p>
           My CV can be found at <a href={currentResumeUrl}>google drive</a>
-          {lookingForJob === false ? " but I\'m not looking for a new job at the moment." : " and I'm open to new opportunities!"}
+          {
+            lookingForJob === false
+            ? " but I'm not looking for a new job at the moment." 
+            : " and I'm open to new opportunities, especially interested in projects in medical or educational sectors."
+          }
         </p>
         <h3>Contacts</h3>
         <ul>
