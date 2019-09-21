@@ -12,6 +12,7 @@ const currentEmail:string = 'svbackend22@gmail.com';
 const currentResumeUrl:string = 'https://docs.google.com/document/d/1JnTviLtkWa5Xh-viTocx2DBGnP4Nk31IUkh5z9Yi4GM/edit?usp=sharing';
 const currentLinkedinUrl:string = 'https://www.linkedin.com/in/svbackend/';
 const currentGithubUrl:string = 'https://github.com/svbackend';
+const currentUpworkUrl:string = 'https://www.upwork.com/o/profiles/users/_~018a4a0ded0fec0fe6/';
 const lookingForJob:boolean = true;
 
 class App extends Component {
@@ -40,8 +41,9 @@ class App extends Component {
         <h3>Contacts</h3>
         <ul>
           <li><a href={'mailto:' + currentEmail}>{currentEmail}</a></li>
-          <li><a href={currentLinkedinUrl} target="_blank">LinkedIn</a></li>
           <li><a href={currentGithubUrl} target="_blank">Github</a></li>
+          <li><a href={currentLinkedinUrl} target="_blank">LinkedIn</a></li>
+          <li><a href={currentUpworkUrl} target="_blank">Upwork</a></li>
         </ul>
       </div>
     );
